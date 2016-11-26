@@ -1,0 +1,9 @@
+{
+  "name": "kaitai_practice_checker",
+  "version": "0.1.0",
+  "main": "checker.js",
+  "dependencies": {
+    "iconv-lite": "^0.4.15"
+  },
+  "devDependencies": {},
+}

@@ -1,0 +1,1 @@
+node checker.js ..\challenges\chall1\solution.ksy ..\challenges\chall1\input.bin ..\challenges\chall1\check.json
