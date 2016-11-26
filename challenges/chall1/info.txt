@@ -1,0 +1,6 @@
+ - unsigned, 1 byte long, little-endian integer (byte) called `myFirstByte` = 42
+ - signed, 2 byte long, little-endian integer (short) called `iLikeNegativeNumbers` = -1337
+ - unsigned, 4 byte long, little-endian float called `halfLife3Confirmed` = 3.33
+ - unsigned, 8 byte long, big-endian integer called `onlyOne` = 1
+ - null-terminated, utf-8 encoded string called `message` = "★★★ Congratulations! You've successfully solved this challenge! :) ★★★"
+ - fixed, 6 byte long, ascii string called `trailer` = "EOFEOF" 

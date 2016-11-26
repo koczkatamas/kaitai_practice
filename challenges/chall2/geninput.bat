@@ -1,0 +1,1 @@
+python encryptor.py key input.bin helloworld.txt password.txt flag secret.txt
