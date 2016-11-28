@@ -19,6 +19,7 @@ class CheckerHandler(BaseHTTPServer.BaseHTTPRequestHandler):
     def do_POST(self):
         def resp(statusCode, result):
             self.send_response(statusCode)
+            self.send_header('Access-Control-Allow-Origin', '*')
             self.end_headers()
             self.wfile.write(json.dumps(result))
     
