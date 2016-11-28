@@ -96,8 +96,8 @@ module.exports = function convert(userObj, solObj) {
             var objRepr = reprPrimitive(obj);
             var solRepr = reprPrimitive(solObj);
 
-            if(objRepr !== solRepr)
-                console.log('diff', objRepr, solRepr);
+            //if(objRepr !== solRepr)
+            //    console.log('diff', objRepr, solRepr);
             allMatch = allMatch && objRepr === solRepr;
 
             if (objRepr === solRepr) {
